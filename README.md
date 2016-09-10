@@ -1,7 +1,13 @@
-#Requisits 
-
-* sudo apt-get install libsdl2-dev
-* sudo apt-get install libsdl2-image-dev
-* sudo apt-get install libsdl2-ttf-dev
-* sudo apt get install libsdl2-mixer-dev
-* sudo apt-get install libsdl2-dev
+#Dependecias
+  ``` 
+  $ cd tools
+  $ sh deps.sh
+  $ cd ..
+  ```  
+  
+# Como Instalar
+  ``` 
+  $ cd src
+  $ g++ main.cpp -o main -lSDL2 -lSDL2_image
+  ```  
+  
